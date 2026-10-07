@@ -1,0 +1,66 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background: #000;
+    color: #fff;
+    position: relative;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: -20px;
+    background: url("Picture/Background/body-background.png") center top / cover no-repeat;
+    filter: blur(3px);
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(125, 124, 124, 0.6) 0%, rgba(0, 0, 0, 1) 100%);
+    z-index: -1;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.copy-link {
+    color: #fb9f3c;
+}
+
+@keyframes slowZoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    /* Zoom in slightly */
+    100% {
+        transform: scale(1);
+    }
+}
+
+.zooming-image {
+    width: 20%;
+    height: auto;
+    animation: slowZoom 6s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.front-logo {
+    margin-top: 12%;
+}
