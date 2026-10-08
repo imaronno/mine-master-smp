@@ -29,14 +29,15 @@ body::after {
 
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: bolder;
     font-style: normal;
 }
 
 .copy-link {
-    color: #fb9f3c;
+    color: #f98d1a;
+    font-size: 110%;
 }
 
 @keyframes slowZoom {
@@ -63,4 +64,17 @@ body {
 
 .front-logo {
     margin-top: 12%;
+}
+
+.magna-agun {
+    color: #f08819;
+    transition: text-shadow 0.3s ease;
+    cursor: copy;
+}
+
+.magna-agun:hover {
+    text-shadow: 0 0 6px rgba(255, 151, 42, 0.8),
+        0 0 14px rgba(255, 151, 42, 0.6),
+        0 0 28px rgba(255, 151, 42, 0.4);
+
 }
