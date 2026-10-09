@@ -1,0 +1,25 @@
+ranks
+
+knight ranks{
+4 set homes
+knight custom prefix
+knight custom kit
+}
+
+elite rank{
+5 sets home
+elite custom prefix
+elite custom kit
+}
+
+legend kit{
+6 set home
+legend custom prefix
+legend custom kits
+}
+
+mythic rank{
+8 sets home
+mythic custom prefixs
+mythic custom kit
+}
